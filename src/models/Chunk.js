@@ -3,7 +3,6 @@ import mongoose from "mongoose";
 const chunkSchema = new mongoose.Schema({
   text: String,
 
-  // 🔥 VECTOR (IMPORTANT)
   embedding: {
     type: [Number],
     required: true
@@ -14,7 +13,10 @@ const chunkSchema = new mongoose.Schema({
     ref: "PDF"
   },
 
-  page: Number
+  // 🔥 NEW FIELDS FOR HIGHLIGHT
+  page: Number,
+  startIndex: Number,
+  endIndex: Number
 });
 
 export default mongoose.model("Chunk", chunkSchema);

@@ -3,7 +3,11 @@ import * as pdfjsLib from "pdfjs-dist/legacy/build/pdf.mjs";
 export async function parsePDF(filePath) {
   const loadingTask = pdfjsLib.getDocument({
     url: filePath,
-    disableWorker: true   // 🔥 THIS IS THE REAL FIX
+    disableWorker: true,
+
+    // 🔥 FIXES WARNINGS
+    standardFontDataUrl: null,
+    useSystemFonts: true
   });
 
   const pdf = await loadingTask.promise;

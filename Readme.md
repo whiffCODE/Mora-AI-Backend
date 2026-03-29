@@ -184,3 +184,34 @@ Clicking a source returns:
 **👨‍💻 Author**
 
 Subhadip Samanta
+
+---
+
+**📜 License**
+
+MIT License
+```
+================================================================================
+[ NODE_TYPE: PROPRIETARY_SOURCE ]          [ STATUS: NON_DISTRIBUTABLE ]
+================================================================================
+
+Copyright (c) 2026 Mora AI Systems. All Rights Reserved.
+
+RESTRICTION_LOG:
+1. ACCESS_ONLY: Permission is granted strictly for the viewing and 
+   personal evaluation of this software ("Mora AI").
+   
+2. NO_MODIFICATION: Any modification, merging, or alteration of the 
+   source code is strictly prohibited.
+   
+3. NO_DISTRIBUTION: Sublicensing, selling, or distributing copies of 
+   this software (in part or whole) is a violation of the access protocol.
+
+4. NO_COMMERCIAL_USE: This software may not be used for commercial 
+   gain without explicit, written authorization from the Origin Node.
+
+================================================================================
+[ TRACE_ID: MORA_SECURED_026 ]             [ ENCRYPTION: ACTIVE ]
+================================================================================
+```
+
